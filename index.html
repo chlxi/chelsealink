@@ -15,13 +15,15 @@
   
   <div class="Instagram">
           <img src="https://img.icons8.com/instagram" alt="Instagram-icon" style="width:30px;height:30px;"/> <br>
-    <a href="https://www.instagram.com/plane_maniac/">@plane_maniac</a>
+    <a href="https://www.instagram.com/plane_maniac/"><b>@plane_maniac</b></a>
+  </div>
+  <div class="aboutMe"
       <p> feel free to dm me on insta/discord about anything! i might reveal more about myself 👀<br>(eg: music, entertainment, coding, etc.)</p>
-        </div>
+  </div>
   <a href="https://apps.apple.com/us/app/musicalrooms/id1597490110" target="blank">
             <div class="MusicalRooms">
                 <img src="musicalrooms-icon.png" alt="Linked-icon" />
-                <p>Download MusicalRooms 🎵!!!!!</span></p>
+                <p>Download MusicalRooms 🎵now!!!!!</span></p>
             </div>
         </a>
         <a href="https://github.com/chlxi" target="blank">
@@ -47,9 +49,9 @@
                 <p>Sike you're not getting my reddit</p>
             </div>
   </a>
-   <a href="https://discord.com/users/751365023330205726" target="blank">
+   <a href="https://github.com/chlxi/chelsealink" target="blank">
             <div class="Source code">
-                <br><p>Source code for this page if you want it for some reason (sorry for formatting :p)</p>
+                <br><p>Source code for this page if you want it for some reason (sorry for the formatting :p)</p>
             </div>
   </a>
     <div class="Credits">
@@ -78,7 +80,7 @@
     --lightblue: #d1e9ff;
     --mint: #adffe0;
     --lightpurple:#D8CCF5;
-    --purple: #ccafe9;
+    --purple: rgba(97, 126, 240, 0.671);
     --white: #fefefa;
     --black: #454545;
     --lightgray: #94B0C2;
@@ -183,10 +185,11 @@ a div:active {
   box-shadow: var(--blue);
 }
 
-a:-webkit-any-link {
-    color: var(--white);
-    cursor: pointer;
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  color:var(--white);
+  text-decoration:none; 
 }
+
     
 @media (max-width: 900px) {
   main {
@@ -226,10 +229,20 @@ a:-webkit-any-link {
 }
 
 .Credits{
-      font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   text-align: center;
-    color: var(--white);
-      font-size: 15px;
+  color: var(--white);
+  font-size: 15px;
     }
+.Instagram{
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px var(--purple);
+}
+.aboutMe{
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  color: var(--white);
+}
   </style>
 </html>
